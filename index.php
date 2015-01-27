@@ -1,6 +1,6 @@
 <?php
 
-// comita ou não comita
+// comita ou não comita?
 function generateHash($password) {
     if (defined("CRYPT_BLOWFISH") && CRYPT_BLOWFISH) {
         $salt = '$2y$11$' . substr(md5(uniqid(rand(), true)), 0, 22);
