@@ -1,68 +1,67 @@
-Descrição
-
+DescriÃ§Ã£o BÃ¡sica
 Site/aplicativo para relato de perda de objetos,
-busca e recuperação dos mesmos. 
+busca e recuperaÃ§Ã£o dos mesmos. 
 
 // same old comment
 
-Fluxo de ação dos usuários
+Fluxo de aÃ§Ã£o dos usuÃ¡rios
 
-Definição de Requisitos
+DefiniÃ§Ã£o de Requisitos
 RQ00 - cadastro/login
 
 RQ01 - cria-se uma localidade
 RQ02 - os membros interessados se cadastram
 
-RQ03 - alguém do grupo notifica perda
+RQ03 - alguÃ©m do grupo notifica perda
 RQ04 - o sistema pergunta ao grupo quem achou
 
-RQ05 - alguém do grupo notifica encontro
+RQ05 - alguÃ©m do grupo notifica encontro
 RQ06 - o sistema pergunta ao grupo quem perdeu
 
 RQ07 - usa foto para mostrar o que foi encontrado ou perdido
-RQ08 - possui versão mobile para receber as notificações
+RQ08 - possui versÃ£o mobile para receber as notificaÃ§Ãµes
 RQ09 - possui plugin para redes sociais
 
 
-Especificação de Requisitos
-RQ00 - o acesso não pode ser burocrático, oferecer OAuth (apenas?); 
-       acesso inicial (mobile) solicita usuário[email válido] e senha 
+EspecificaÃ§Ã£o de Requisitos
+RQ00 - o acesso nÃ£o pode ser burocrÃ¡tico, oferecer OAuth (apenas?); 
+       acesso inicial (mobile) solicita usuÃ¡rio[email vÃ¡lido] e senha 
        apenas uma vez; acesso online solicita sempre.
-       usuário deve acessar seu email para ativar conta.
+       usuÃ¡rio deve acessar seu email para ativar conta.
 
-RQ01 - o sistema oferece uma GUI em que o usuário selecione uma
-       localidade (estado/cidade/bairro/instituição) em um mapa
-       no ato da criação/seleção deve ser oferecida uma lista de 
-       modalidade de localidades (escola, clube, condomínio, etc);
-       a digitação do nome de uma localidade deve oferecer recurso
+RQ01 - o sistema oferece uma GUI em que o usuÃ¡rio selecione uma
+       localidade (estado/cidade/bairro/instituiÃ§Ã£o) em um mapa
+       no ato da criaÃ§Ã£o/seleÃ§Ã£o deve ser oferecida uma lista de 
+       modalidade de localidades (escola, clube, condomÃ­nio, etc);
+       a digitaÃ§Ã£o do nome de uma localidade deve oferecer recurso
        de autocompletar.
        
-RQ02 - procedimento idêntico ao do RQ01 deve ser adotado para o 
-       cadastro dos novos usuários em uma localidade; cada usuário
-       pode, simultaneamente, acessar várias localidades.
+RQ02 - procedimento idÃªntico ao do RQ01 deve ser adotado para o 
+       cadastro dos novos usuÃ¡rios em uma localidade; cada usuÃ¡rio
+       pode, simultaneamente, acessar vÃ¡rias localidades.
        
-RQ03 - a notificação de perda deve ser muito simples, oferecendo
-       acesso a listas de objetos que as pessoas perdem com frequência
-       para seleção rápida pelo comunicante; selecione a localidade,
+RQ03 - a notificaÃ§Ã£o de perda deve ser muito simples, oferecendo
+       acesso a listas de objetos que as pessoas perdem com frequÃªncia
+       para seleÃ§Ã£o rÃ¡pida pelo comunicante; selecione a localidade,
        selecione o tipo de objeto e pronto.
        
-RQ04 - o sistema envia notificações para as pessoas que se cadastraram
+RQ04 - o sistema envia notificaÃ§Ãµes para as pessoas que se cadastraram
        como "membros de uma localidade" informando a perda e perguntando
-       se alguém achou.
+       se alguÃ©m achou.
        
-RQ05 - idem RQ03 (usuário informa objeto encontrado)
+RQ05 - idem RQ03 (usuÃ¡rio informa objeto encontrado)
 
 RQ06 - idem RQ04 (sistema pergunta quem perdeu)
        
-RQ07 - RQ03 e RQ05 devem ter acesso à câmera (smart/tablet) 
+RQ07 - RQ03 e RQ05 devem ter acesso Ã  cÃ¢mera (smart/tablet) 
        ou upload de imagem(laptop/desktop)
        
        
-Páginas
+PÃ¡ginas
 P0 - login
-     leva a P1 se for inicial ou a P2 para usuário cadastrado
+     leva a P1 se for inicial ou a P2 para usuÃ¡rio cadastrado
 
-P1 -  cadastro e/ou seleção de localidade
-      mapa país -> mapa estado -> mapa bairro -> lista localidades -> lista de sublocalidades
+P1 -  cadastro e/ou seleÃ§Ã£o de localidade
+      mapa paÃ­s -> mapa estado -> mapa bairro -> lista localidades -> lista de sublocalidades
       
       
